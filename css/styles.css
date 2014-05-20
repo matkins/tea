@@ -1,0 +1,38 @@
+table {
+  width:500px;
+  margin:0px auto;
+  text-align:center;
+}
+table td {
+  height:140px;
+  font-size:40px;
+  color:#ccc;
+  text-align:center;
+  cursor:pointer;
+}
+
+table td:nth-child(2) {
+  border-left:5px solid #AAA;
+  border-right:5px solid #AAA;  
+}
+
+table tr:nth-child(2) td{
+  border-top:5px solid #AAA;
+  border-bottom:5px solid #AAA;
+}
+
+table td:hover {
+  color:#fff;
+  background-color: #ccc;
+}
+
+td.hit {
+  background: red;
+  color:white;
+  cursor: default;
+}
+
+td.hit:hover {
+  background: red;
+  color:white;
+}
